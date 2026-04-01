@@ -1,0 +1,32 @@
+# Inspiration Sources
+# People, publications, and websites that inform your thinking and content.
+# Used by /linkedin-post and /batch-create to find relevant angles and research.
+# Managed by /add-source — run that skill to add, remove, or update entries.
+#
+# Categories:
+#   business_figures   — operators, founders, executives, marketers with active content
+#   thought_leaders    — authors, philosophers, researchers known for ideas and frameworks
+#   linkedin_creators  — people followed specifically for their LinkedIn style and content
+#   newsletters        — email publications and Substack writers
+#   websites           — blogs, media sites, resource hubs
+
+business_figures: []
+
+thought_leaders: []
+
+linkedin_creators: []
+
+newsletters: []
+
+websites: []
+
+research_instructions: |
+  When researching for a LinkedIn post:
+  1. Check if any business figure has a relevant framework or recent post on the topic
+  2. Check linkedin_creators for creators who have covered this topic — what angle did they use?
+  3. Look for thought leader frameworks that add intellectual depth
+  4. Cross-reference with newsletters for trending angles and recent data
+  5. Pull practical, actionable angles from business figures; philosophical depth from thought leaders
+  6. Never copy — synthesize. The client's voice and brand come first.
+  7. Always attribute ideas when drawing heavily from a specific thinker
+  8. Avoid angles that directly mimic a creator the client follows — differentiate
