@@ -1,6 +1,8 @@
 # ai-linkedin-kit
 
-A personal LinkedIn writing system powered by Claude. It learns your voice, understands your brand, and writes posts that sound like you — not like AI.
+**For anyone who wants to post consistently on LinkedIn but hates staring at a blank text box.** You know what you want to say. You have your voice, your perspective, your expertise. You just want to go from an idea in your head to a ready-to-post draft — without the writer's block, the formatting guesswork, and the "does this sound like me?" anxiety.
+
+This kit captures how you write, learns your brand, and lets you go from "I want to post about X" to a polished LinkedIn post in your voice. You review it, tweak what you want, and hit publish.
 
 ---
 
