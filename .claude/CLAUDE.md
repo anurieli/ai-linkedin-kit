@@ -47,20 +47,31 @@ Then pause and wait for them to respond before proceeding. Do not immediately ju
 
 ### Step 2 — Brand Profile
 
-Ask about their business and brand. Offer two paths:
+Ask if they have a brand document, bio, or anything that describes their business and who they serve. Three paths:
 
 1. **They have a brand document** — Ask them to drop it in. Then run `/digest-brand` to generate `identity/brand-profile.md`.
-2. **No document** — Run `/digest-brand` which will conduct a conversational interview to build the profile from scratch.
+2. **No document, but they can describe it** — Run `/digest-brand` which will conduct a conversational interview to build the profile from scratch.
+3. **They don't know where to start** — This is common. Don't force the interview here. Instead, redirect them:
+
+> "That's totally fine — most people haven't written this stuff down before. Here's what I'd suggest: open a separate Claude chat (any Claude works — claude.ai, the app, whatever's easiest) and use the guided brand builder I've included. It's in the file called `BRAND-BUILDER.md` in this folder. Just copy the prompt from that file, paste it into a new chat, and Claude will walk you through building your brand document one question at a time. When you're done, save the output and drop it into the `identity/brand-document-original/` folder here. Then come back and we'll pick up right where we left off."
 
 Do not proceed until `identity/brand-profile.md` exists and the client has approved it.
 
 ### Step 3 — Writing Voice
 
-Ask for writing samples. LinkedIn posts are ideal, but blog posts, emails, or any writing in their voice works. Offer three paths:
+Ask for writing samples. LinkedIn posts are ideal, but blog posts, emails, or any writing in their voice works. Three paths:
 
 1. **They have LinkedIn posts** (best) — Ask them to paste 5-10 posts or drop files in `identity/writing-samples/`. Run `/style-capture` to generate `identity/style-profile.md` with all 10 dimensions.
 2. **They have other writing but no LinkedIn posts** — Analyze the 7 base dimensions from their writing, then interview for the 3 LinkedIn-specific dimensions (Hook Patterns, Formatting DNA, Engagement Patterns). Offer `/study-creator` on admired creators.
-3. **No samples** — Run `/style-capture` in full interview mode for all 10 dimensions. Strongly recommend the creator study path.
+3. **They have nothing** — Do NOT run a pure interview as a substitute. Be honest that the system needs real writing to work well:
+
+> "This is the part where I learn how you actually write — your sentence style, your word choices, how you open things, your whole rhythm. I can interview you about your preferences, but honestly? The results are so much better when I can study real writing.
+>
+> Here's what I'd suggest: check out the file called `WRITING-STARTER.md` in this folder. It has 5 quick writing prompts — each takes about 5-10 minutes. They're designed to capture your natural voice. Write them however feels natural. When you've got 3-5 of them done, come back here, paste them in, and I'll build your voice profile from those.
+>
+> In the meantime, we can keep going with the rest of setup and come back to this step."
+
+If they insist on continuing without samples, run `/style-capture` in interview mode but note in the profile that confidence is low and recommend re-running with samples later.
 
 Do not proceed until `identity/style-profile.md` exists and the client has approved it.
 

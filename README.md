@@ -156,6 +156,12 @@ Your brand and voice aren't set in stone. Update them anytime through a simple c
 
 ## FAQ
 
+**What if I don't have a brand document?**
+No problem. There's a file called `BRAND-BUILDER.md` in this folder with a guided prompt. Copy it into any Claude chat, and Claude will interview you and produce a brand document you can bring back here.
+
+**What if I don't have any writing samples?**
+The system works best with real writing to study. There's a file called `WRITING-STARTER.md` with 5 quick prompts to get you started — each takes 5-10 minutes. Write a few, bring them back, and Claude builds your voice profile from those.
+
 **Do I need to use the exact command names?**
 No. You can say "write a LinkedIn post about X," "study how Justin Welsh writes," or "help me think through some hooks." Claude understands natural language.
 
