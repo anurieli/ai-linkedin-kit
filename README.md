@@ -78,6 +78,26 @@ Claude handles the rest.
 
 ---
 
+## How it works
+
+When you say "write a post about X," here's what actually happens:
+
+1. **Claude reads your files.** It loads your brand profile, voice profile, content pillars, and recent post history. This is how it knows who you are, how you write, and what you've posted recently.
+
+2. **It checks your strategy.** Which content pillar hasn't gotten attention lately? What template haven't you used in a while? It picks the best format for variety and balance.
+
+3. **It writes 5 hooks.** Five different ways to open your post — a bold claim, a story opener, a question, a number-driven hook, and a pattern interrupt. You pick the one that feels most like you.
+
+4. **It drafts the full post.** Using your chosen hook, the right template, and your voice profile — matching your sentence style, formatting habits, emoji usage, and engagement patterns.
+
+5. **It self-edits before you see it.** Checks the draft against your voice (does this sound like them?), your brand (is this on-message?), and LinkedIn best practices (mobile-readable? strong hook? no cringe?).
+
+6. **You review and iterate.** Claude presents the draft, you give feedback, it revises. Every correction makes future drafts better — recurring patterns get saved to your voice profile.
+
+The whole thing takes a few minutes. Your post is saved as a draft file you can copy straight to LinkedIn.
+
+---
+
 ## Available commands
 
 You can use natural language or these specific commands:
