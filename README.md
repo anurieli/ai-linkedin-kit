@@ -118,6 +118,22 @@ ai-linkedin-kit/
 
 ---
 
+## Keeping it fresh
+
+Your brand and voice aren't set in stone. Update them anytime through a simple conversation:
+
+**Update your brand** — Just say "I want to update my brand" or "my positioning has shifted." Claude will walk you through what's changed and update your brand profile.
+
+**Update your voice** — Say "my writing style has changed" or "here are new writing samples." Claude will re-analyze your voice or interview you about what's different.
+
+**Add new writing examples** — Drop new LinkedIn posts or writing samples into `identity/writing-samples/` and tell Claude to refresh your voice profile. More samples = better voice matching.
+
+**Add inspiration sources** — Say "add [person] to my sources." Claude will research them and add them to your sources file.
+
+**Study new creators** — Say "study how [creator] writes on LinkedIn." Claude will analyze their patterns and offer to incorporate specific techniques into your style.
+
+---
+
 ## FAQ
 
 **Do I need to use the exact command names?**
