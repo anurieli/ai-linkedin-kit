@@ -19,6 +19,7 @@ Read these files:
 - `identity/style-profile.md` — writing voice (all 10 dimensions)
 - `content-strategy/pillars.yaml` — pillar allocation targets and posting cadence
 - `content-strategy/post-history.yaml` — what has been posted recently
+- `content-strategy/algorithm-guide.md` — current algorithm signals and best practices
 - `sources.yaml` — inspiration sources
 
 **Hard stop** if brand or style profiles are missing.
@@ -28,21 +29,25 @@ Read these files:
 Create a content plan for the requested number of posts (default: 5 for a Monday-Friday week).
 
 For each post slot, assign:
-- **Day** (e.g., Monday, Tuesday...)
+- **Day** (prefer Tue-Thu for strongest reach, with strongest post on Tuesday)
 - **Pillar** (which content pillar it serves)
-- **Template** (which post format to use)
+- **Format** (text post OR carousel — include at least 1 carousel per week; carousels get 7% engagement vs 4.5% for text)
+- **Template** (which post template to use)
 - **Topic** (specific topic or angle)
 - **Hook direction** (brief note on hook approach)
 
 ### Step 3 — Enforce variety rules
 
 The calendar MUST follow these rules:
-1. **No two consecutive posts use the same template.** A story-lesson on Monday means no story-lesson on Tuesday.
+1. **No two consecutive posts use the same template.** A story-lesson on Tuesday means no story-lesson on Wednesday.
 2. **All active pillars represented at least once per week.** Check pillar allocation targets.
 3. **At least one personal/story-driven post.** Builds connection.
 4. **At least one opinion/contrarian post.** Drives engagement.
-5. **Topics don't repeat recent history.** Check post-history.yaml.
-6. **Energy varies.** Mix lighter, punchy posts with deeper, narrative ones.
+5. **At least one carousel/document post.** Carousels get 7% engagement vs 4.5% for text — use them for frameworks, listicles, and step-by-step content.
+6. **Topics don't repeat recent history.** Check post-history.yaml.
+7. **Energy varies.** Mix lighter, punchy posts with deeper, narrative ones.
+8. **Strongest post on Tuesday.** Tuesday is consistently the highest-performing day. Schedule your best content there.
+9. **No links in post bodies.** Links carry a -40-50% reach penalty. Note any needed links for the comments.
 
 ### Step 4 — Present for approval
 

@@ -2,6 +2,8 @@
 
 A planned series of 3-5 connected posts that go deep on one topic over multiple days. Each post stands alone as a complete, valuable post — but also connects to the others as part of a larger arc. Used for topics too big for a single post and for building sustained engagement with an audience over a week.
 
+**Important caveat:** LinkedIn's algorithm treats each post independently — there is no "series boost." Organic reach is typically 2-8% of followers, so most people will not see all posts. Before committing to a series, ask whether the topic would work better as a single longer post, a carousel (6-9 slides), or a framework post. Only use this format when the topic genuinely cannot be compressed.
+
 **Target length:** 3–5 posts, 600–1000 characters each
 **Total series:** 2200–4500 characters across all posts
 

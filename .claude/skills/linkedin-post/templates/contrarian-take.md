@@ -2,7 +2,7 @@
 
 A bold, opinion-first post that challenges conventional wisdom. Drives high comment engagement because people want to agree or argue.
 
-**Target length:** 800-1200 characters
+**Target length:** 1000-1500 characters
 
 ---
 

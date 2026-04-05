@@ -33,8 +33,17 @@ Read these files to ground every decision in the client's world:
    - Dimension 8: Hook Patterns
    - Dimension 9: Formatting DNA
    - Dimension 10: Engagement Patterns
+3. `content-strategy/algorithm-guide.md` — current LinkedIn algorithm signals, format performance, engagement weights, AI detection risks
 
-Hold this context through every subsequent phase. Every decision — topic, angle, hook, word choice, formatting — must be filtered through these two profiles.
+Hold this context through every subsequent phase. Every decision — topic, angle, hook, word choice, formatting — must be filtered through these profiles and algorithm data.
+
+**Key algorithm rules to hold in mind:**
+- Target 1,300-1,900 characters (dwell time sweet spot)
+- Hooks must work within 140 characters (mobile fold)
+- Never put links in the post body (-40-50% reach penalty)
+- Comments >15 words are 2.5x more valuable; saves are 5x more valuable than likes
+- AI-detected content gets -30% reach — include specific personal details and voice-specific patterns
+- Consider whether the topic would work better as a carousel (7% engagement) vs text (4.5%)
 
 ---
 

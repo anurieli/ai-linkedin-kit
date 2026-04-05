@@ -19,16 +19,25 @@ Activate when the user says `/hook-workshop` or asks for help with hooks specifi
 
 Generate **10 hooks** across these types, labeling each:
 
-1-2. **Bold Statement** — a strong claim that challenges or surprises
-3-4. **Question** — makes the reader stop and think
-5-6. **Story Opener** — drops into a specific moment or experience
-7-8. **Number-Driven** — specificity that signals substance
-9-10. **Pattern Interrupt** — unexpected framing, single-word opener, or confession
+1. **Bold Statement** — a strong claim that challenges or surprises
+2. **Question** — makes the reader stop and think
+3. **Story Opener** — drops into a specific moment or experience
+4. **Number-Driven** — specificity that signals substance
+5. **Pattern Interrupt** — unexpected framing, single-word opener, or confession
+6. **Vulnerability/Confession** — admission that builds trust instantly
+7. **Comparison** — "Everyone talks about X. Nobody talks about Y."
+8. **List Preview** — "3 things I stopped doing that doubled my [result]:"
+9. **Coaching Truth** — ultra-short reframe of common assumption (Dr. Julie Gurner style)
+10. **Relatable Enemy** — names something the audience dislikes, then flips to a hero (Justin Welsh style)
 
 For each hook:
-- Write the hook (1-2 lines, under 140 characters for the first line)
+- Write the hook (1 line ideal, **under 140 characters** for the mobile fold — under 45 characters is even better)
+- **Show the character count** in brackets: [87 chars]
 - Label the type
 - Add a one-line note on why it works
+- **Flag any hook over 140 characters** — it won't work before the mobile fold
+
+Also generate a **rehook** (2-3 lines after the fold) for the top 3 hooks. The rehook slams the door shut and keeps the reader reading.
 
 Present all 10 and ask: "Which ones jump out? I can refine any of these or go in a different direction."
 
@@ -81,7 +90,10 @@ When a hook is marked as a winner by the client (they use it, they say they love
 
 - **Quality over quantity.** 5 excellent hooks beat 10 mediocre ones. But when asked for 10, make all 10 strong.
 - **Specificity wins.** "I made $47K in 3 months" beats "I made a lot of money quickly." Numbers, names, and details make hooks compelling.
-- **The fold is the filter.** The first line must work in ~140 characters (mobile "see more" cutoff). Always check this.
+- **The fold is the filter.** The first line must work in **140 characters** (mobile fold) or ideally **under 45 characters** (one line). Show character count for every hook. Hooks longer than 1 line perform 20% worse.
+- **No negative words in hooks.** Hooks with negative words perform 30% worse (Jasmin Alic data).
 - **No cringe hooks.** Nothing performative, humble-braggy, or engagement-baity. "Agree?" is banned. "Tag someone" is banned.
+- **No AI-sounding hooks.** Avoid: "Here's the thing," "Let that sink in," "Read that again," "Game-changer," "Full stop." 82% of AI posts use 1 of 3 opening patterns — vary your approach.
 - **Match the client's voice.** Read `identity/style-profile.md` Dimension 8 (Hook Patterns) before generating. The hooks should sound like the client, not like generic LinkedIn advice.
 - **Open loops, not clickbait.** Every hook should honestly represent what the post delivers. Curiosity gaps are good. Misleading promises are bad.
+- **The rehook matters as much as the hook.** The hook gets them to click "see more." The rehook (lines 2-3 after the fold) keeps them reading to the end.

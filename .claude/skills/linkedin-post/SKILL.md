@@ -34,6 +34,7 @@ Read these files to ground yourself in the client's world:
 - `identity/style-profile.md` — writing voice across all 10 dimensions
 - `content-strategy/pillars.yaml` — content pillars with allocation targets
 - `content-strategy/post-history.yaml` — what has been posted recently
+- `content-strategy/algorithm-guide.md` — current LinkedIn algorithm signals and best practices
 - `sources.yaml` — curated thought leaders, business figures, LinkedIn creators
 
 **If `brand-profile.md` or `style-profile.md` do not exist**, stop and tell the client:
@@ -46,6 +47,7 @@ Do not proceed without both identity files.
 
 - Determine which content pillar this post serves
 - Check post history: what has been posted recently? What pillar is underserved? What template has not been used?
+- Consider format: should this be a text post or a carousel? Carousels get 7% engagement vs 4.5% for text. Use carousel for frameworks, step-by-step processes, and listicles with 5+ items.
 - If no template specified, recommend one based on topic + variety needs
 - If auto-suggest mode, generate 3 topic options with recommended templates
 
@@ -71,6 +73,8 @@ Generate **5 hook options**, each a different strategy:
 4. **Number/data-driven** — specificity that signals substance
 5. **Pattern interrupt** — unexpected framing that breaks the scroll
 
+**For each hook, show the character count.** Flag any hook that exceeds 140 characters (mobile "see more" fold). The ideal hook is under 45 characters (one line) — hooks longer than one line perform 20% worse.
+
 Present all 5 to the client:
 
 > "Here are 5 ways to open this post. Pick one, or tell me what direction to go."
@@ -79,16 +83,34 @@ Present all 5 to the client:
 
 ---
 
+## Phase 2b: Rehook Generation
+
+After the hook is selected, write the **rehook** — the 2-3 lines immediately after the "see more" fold.
+
+The hook gets them to click "see more." The rehook slams the door shut and keeps them reading.
+
+The rehook must:
+- Make a specific promise about what the post delivers
+- Eliminate the reader's reason to leave
+- Create an open loop the body will close
+
+Present the rehook with the hook for client approval before drafting.
+
+---
+
 ## Phase 3: Draft
 
 ### Write the full post
 
-- Use the selected hook + chosen template structure from `.claude/skills/linkedin-post/templates/`
+- Use the selected hook + rehook + chosen template structure from `.claude/skills/linkedin-post/templates/`
 - Apply all 10 style dimensions from the style profile
-- Respect character limits for the template
+- **Target 1,300-1,900 characters** — the engagement sweet spot (optimizes dwell time + completion rate)
 - Apply Formatting DNA (line breaks, spacing, emoji, emphasis) from Dimension 9
+- **Max 3 lines per paragraph.** Single-sentence paragraphs preferred. Whitespace between every thought.
+- **Target grade 3-5 reading level.** Short sentences under 12 words perform 20% better.
 - Weave in references naturally — LinkedIn-native style ("A friend told me..." not "According to Dr. Smith...")
-- End with an engagement driver from the style profile's Dimension 10 (question, prompt, restatement)
+- **Never include links in the post body** — links carry a -40-50% reach penalty. If a link is needed, note it for the comments.
+- End with a **call-to-conversation (CTC)** from the style profile's Dimension 10 — a genuine question that invites substantive replies (not "Agree?" or "Thoughts?"). Comments >15 words carry 2.5x more algorithmic weight.
 
 ---
 
@@ -109,23 +131,40 @@ Before presenting anything, run through these checks:
 
 ### Hook strength
 - "Would I stop scrolling for this?"
-- Does it work before the "see more" fold (~140 characters on mobile)?
+- Does the hook work within **140 characters** (mobile fold)? Show the character count.
+- Does the rehook (lines 2-3 after fold) lock the reader in?
 - Does it create an open loop the reader needs to close?
 
 ### Formatting check
-- Mobile-readable? (60%+ of LinkedIn is mobile)
-- Enough whitespace? One idea per line?
+- Mobile-readable? (57%+ of LinkedIn is mobile)
+- Enough whitespace? One idea per line? **Max 3 lines per paragraph.**
 - Scannable on a small screen?
-- Emoji usage matches style profile?
+- Emoji usage matches style profile? (1-3 max, standard emojis = 2 chars)
+- Reading level at grade 3-5? Short sentences under 12 words?
+- **No links in the post body.** Links carry a -40-50% reach penalty.
 
 ### Length check
+- **Total post between 1,300-1,900 characters?** (the engagement sweet spot)
 - Within the template's target character range?
 - Every sentence earns its place?
 
+### Save-worthiness check
+- Would someone bookmark this as a reference? Posts that get saved reach 5x more people than posts that get liked.
+- If it's a framework, listicle, or how-to: is it actionable enough to save?
+
 ### Engagement driver check
-- Ending invites response?
-- CTA natural, not forced?
+- Ending invites response with a genuine **call-to-conversation (CTC)**?
+- CTC natural, not forced? (Comments >15 words carry 2.5x algorithmic weight)
 - Matches the style profile's engagement patterns?
+- NOT "Agree?", "Thoughts?", "Tag someone", or any engagement bait
+
+### AI detection check — MANDATORY
+- Does this post contain **specific personal details** (names, numbers, dates, places) that signal real experience?
+- Does it use **domain-specific vocabulary** from the client's actual expertise?
+- Does it include at least one imperfection (fragment, tangent, parenthetical, mid-thought aside)?
+- Does it avoid these AI-overused phrases: "Here's the thing," "Let that sink in," "Read that again," "Game-changer," "Full stop," "Unpack this," "Navigate," "Lean into," "Double down"?
+- Does the structure differ from the last post? (Never use the same format twice in a row)
+- **If the post could have been written by any AI about any brand, it will be distributed to no one.** Make it unmistakably this client.
 
 ### Cringe check (LinkedIn-specific)
 - Anything performative or virtue-signaling? Rewrite it.
@@ -134,6 +173,7 @@ Before presenting anything, run through these checks:
 - Generic motivational poster language? Make it specific.
 - "Tag someone who needs to hear this"? Delete it.
 - Fabricated or exaggerated story? Flag it.
+- Overly polished AI tone? Roughen it up — imperfect-looking posts get 5x more engagement than AI-polished ones.
 
 Revise as needed. The first draft is never the final draft.
 

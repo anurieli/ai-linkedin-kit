@@ -2,8 +2,8 @@
 
 Write the slide-by-slide content for a LinkedIn carousel (document post). Carousels are one of the highest-reach formats on LinkedIn — they earn impressions because every swipe is counted as engagement. But they require more structure and design intent than a text post.
 
-**Target length:** 8–12 slides, 30–60 words per slide
-**Total word count:** ~350–650 words across all slides
+**Target length:** 6–9 slides, 30–60 words per slide (7 slides is optimal — 18% higher engagement than other lengths)
+**Total word count:** ~250–500 words across all slides
 
 ---
 
@@ -30,6 +30,7 @@ Write the slide-by-slide content for a LinkedIn carousel (document post). Carous
 - Write them so they make sense in order AND so any individual slide is shareable or screenshot-able
 - If it's a numbered list: use consistent numbering across all core slides (1 of 7, 2 of 7, etc.)
 - If it's a framework: each slide = one component of the framework, with brief explanation
+- **Swipe rate matters:** If click-through drops below 35% between slides, LinkedIn penalizes visibility. Each slide must earn the next swipe.
 
 ### Second-to-last slide: The Synthesis / So What
 - Pull the whole carousel together in 2-3 sentences
@@ -79,11 +80,13 @@ Write the slide-by-slide content for a LinkedIn carousel (document post). Carous
 ---
 
 ## Common Mistakes
+- **Too many slides:** 2026 data shows 6-9 slides is optimal. The old 12-13 slide carousels now underperform. 7 slides is the peak performer.
 - **Too many words per slide:** More than 60 words per slide and people stop reading. Cut.
 - **Weak cover slide:** If Slide 1 doesn't earn the swipe, nothing else matters.
 - **Slides that only work in sequence:** Each slide should have some standalone value. If it's completely meaningless without context, reconsider.
 - **No synthesis:** The second-to-last slide is where carousels build to — don't let the content just... end.
-- **Lazy CTA:** "Like and share!" is the carousel equivalent of "Agree?" — match the client's actual engagement style.
+- **Lazy CTC:** "Like and share!" is the carousel equivalent of "Agree?" — match the client's actual engagement style.
+- **Ignoring swipe rate:** If readers stop swiping partway through, LinkedIn penalizes the carousel's visibility. Every slide must earn the next swipe.
 
 ---
 

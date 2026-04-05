@@ -35,6 +35,8 @@ Claude will guide you through four things:
 3. **Your content pillars** — the 3-5 themes you want to be known for
 4. **Your sources** — people, publications, or websites that inform your thinking
 
+**The most important thing:** give Claude real writing samples. 5-10 posts or pieces of writing in your natural voice. This is what makes the difference between "sounds like a template" and "sounds like me." Even 3 samples is way better than none.
+
 Once done, Claude saves everything to your files. You never do setup again.
 
 ---
@@ -50,10 +52,11 @@ Tell Claude what you want to write about. Use any of these:
 - **"I'm not sure what to write — suggest 3 ideas"**
 
 Claude will:
-1. Suggest 5 hook options — you pick one
-2. Write the full post in your voice
-3. Run a self-edit to catch anything off-brand or cringe-worthy
-4. Save the draft automatically
+1. Show you 10 hook options with character counts — you pick one
+2. Write a rehook (the lines that keep readers after they click "see more")
+3. Draft the full post in your voice, optimized for LinkedIn's algorithm
+4. Run a self-edit: voice check, brand check, AI detection check, cringe check
+5. Save the draft automatically
 
 ---
 
@@ -65,8 +68,9 @@ Read the draft. If it sounds like you, copy it to LinkedIn. If something's off, 
 - "The opening doesn't sound like me — try again"
 - "Can you try a different hook?"
 - "Make it punchier"
+- "I'd never use the word 'leverage'"
 
-Claude will revise and save the updated version.
+Claude will revise and save the updated version. Every correction teaches the system — so be specific about what's off.
 
 ---
 
@@ -75,10 +79,14 @@ Claude will revise and save the updated version.
 From here, just talk to Claude like a writing partner. You don't need to memorize commands.
 
 **Common things to say:**
-- "Give me a week of posts" — batch mode, 5 posts, calendar first
-- "Help me with hooks for [topic]" — brainstorm opening lines
+- "Give me a week of posts" — batch mode, 4-5 posts, content calendar first
+- "Help me with hooks for [topic]" — brainstorm opening lines with character counts
 - "Study how [creator name] writes on LinkedIn" — study a creator's style
 - "Add [person] to my sources" — update your inspiration list
 - "My voice has changed — let's update my style profile" — refresh your style
 
-The more you use it, the better it gets. Every time you say "that doesn't sound like me," Claude learns.
+**Pro tips:**
+- The first 3-5 posts need more feedback. That's normal — the system is calibrating.
+- "That doesn't sound like me" + why is the most valuable feedback you can give.
+- Your best post of the week should go out on Tuesday (highest-performing day).
+- If a post could work as a carousel, ask for it — carousels get nearly double the engagement of text posts.

@@ -80,6 +80,10 @@ A LinkedIn poll paired with commentary that makes the poll meaningful. The poll 
 
 ---
 
+## Audience Size Note
+
+Polls perform best for accounts with 10K+ followers. For smaller accounts, a question-close text post may generate more meaningful engagement. Poll reach has increased 206% YoY but engagement rates are lower than text or carousel formats.
+
 ## When to Use vs. Others
 - Use this when you have a genuine question you want the audience's input on, or when you want to surface a debate in your field
 - Use `contrarian-take.md` when you have a definite position (not a question) and want to argue for it
