@@ -51,6 +51,29 @@ No coding required. No technical setup. Just a conversation.
 
 ---
 
+## Before you start — what to have ready
+
+Setup goes faster (and output gets way better) when you show up with a few things prepared.
+
+**Must-haves:**
+- **5-10 pieces of your writing** — LinkedIn posts are best, but blog posts, newsletters, long emails, or even Slack messages in your natural voice work. This is the single biggest quality lever.
+- **A one-sentence description of what you do and who you do it for** — doesn't need to be polished, just clear.
+
+**Nice-to-haves:**
+- A brand document, bio, or about page — anything that describes your business, values, and positioning
+- 3-5 topics you always come back to (these become your content pillars)
+- A sense of your tone — 3-4 words that describe how you want to come across (e.g., "direct, warm, no-BS")
+- Topics you'd never post about
+
+**Bonus:**
+- 2-3 LinkedIn creators you admire and want to learn from
+- A posting goal (how many per week, batched or one at a time)
+- Examples of LinkedIn posts that make you cringe — knowing what to avoid is as useful as knowing what to aim for
+
+Don't have writing samples? No problem — there's a file called `WRITING-STARTER.md` in this folder with 5 quick prompts. Each takes 5-10 minutes. Even 3 samples is way better than none.
+
+---
+
 ## Getting started
 
 ### First run (setup — 15-20 minutes, one time only)
