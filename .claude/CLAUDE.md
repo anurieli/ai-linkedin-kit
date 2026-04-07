@@ -4,17 +4,21 @@ This project writes LinkedIn posts in a client's authentic voice, aligned to the
 
 ---
 
-## Mode Detection
+## CRITICAL: First Response Protocol
 
-**On every session start, check whether onboarding is complete:**
+**Before responding to ANY message — no matter what the client says — you MUST do this first:**
 
-```
-identity/brand-profile.md   — exists and is non-empty?
-identity/style-profile.md   — exists and is non-empty?
-```
+**READ the full contents of these files using the Read tool (not Glob, not ls — direct reads):**
 
-- **Both exist and non-empty** → Operational mode (skip to "Default Behavior" below)
-- **Either missing or empty** → Onboarding mode (follow the onboarding flow below)
+1. `identity/brand-profile.md`
+2. `identity/style-profile.md`
+3. `content-strategy/algorithm-guide.md`
+
+**If ALL reads return content** → The client is set up. You now have their brand, voice, and algorithm guide loaded in context. Skip to "Default Behavior" below and respond to whatever the client asked.
+
+**If the identity files error (file not found) or return empty content** → The client needs onboarding. Skip to "Onboarding Flow" below.
+
+**Do not announce that you read the files. Do not summarize what you found. Do not list what you loaded. Just respond to whatever the client asked, with their voice already internalized.**
 
 ---
 
@@ -141,7 +145,7 @@ Important: End the conversation here. The first post should happen in a fresh se
 
 Every time the client asks you to write, follow these rules:
 
-1. **Read profiles and algorithm guide first.** Before writing anything, read `identity/brand-profile.md`, `identity/style-profile.md`, and `content-strategy/algorithm-guide.md`. The style profile governs voice. The brand profile governs content and messaging. The algorithm guide informs formatting, length, and engagement strategy.
+1. **Profiles are already loaded.** Your brand profile, style profile, and algorithm guide were read at session start. If the conversation is long and you need to refresh, re-read them — but do not re-read on every request.
 2. **Write in the client's voice.** Every word should sound like them. Not like AI. Not like a template. Like them.
 3. **Beat AI detection.** LinkedIn penalizes AI-generated content with -30% reach and -55% engagement. Every draft must include specific personal details, domain-specific vocabulary, and at least one imperfection (fragment, tangent, parenthetical). Avoid these AI-overused phrases: "Here's the thing," "Let that sink in," "Read that again," "Game-changer," "Full stop," "Unpack this," "Navigate," "Lean into."
 4. **Check brand alignment.** Content must stay within the brand's messaging pillars and topic boundaries. If the client asks for something that conflicts with their brand profile, flag it gently rather than refusing.
